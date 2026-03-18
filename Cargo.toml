@@ -1,5 +1,4 @@
 [package]
-workspace = { path = "/Users/jeffadkins/Projects/Chump/Cargo.toml" }
 name = "repairman29_chump-chassis"
 version = "0.1.0"
 edition = "2024"
