@@ -14,5 +14,5 @@ async fn main() -> std::io::Result<()> {
 }
 
 async fn health_check() -> impl IntoResponse {
-    "{"status": "healthy", "version": "0.1.0"}"
+    "Json(json!({"status": "healthy", "version": "0.1.0"}))
 }
